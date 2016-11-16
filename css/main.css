@@ -38,15 +38,23 @@ body {
   overflow: hidden;
   left: 50%;
   transform: translateX(-50%);
+  top: 1rem;
 }
 
 .btn {
+  padding: .5em;
+  border-radius: .5em;
+}
+
+.btn-big {
   background-color: #333;
   color: white;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  padding: .5em;
-  border-radius: .5em;
+  font-family: Roboto, sans-serif;
+}
+
+.btn:hover {
+  background-color: black;
 }
 
 h2 {
